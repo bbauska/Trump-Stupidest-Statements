@@ -1,3 +1,4 @@
+/* bbauska/Trump-Stupidest-Statements/css/styles.css for trump-stupidity.bauska.org */
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700,900,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic,900italic|Rock+Salt:400);
 
 *,
@@ -24,6 +25,13 @@ body {
   float: left;
   padding: 1em;
   width: 100%;
+}
+
+.tallFirstLetter:first-letter {
+  float: left;
+  font: 700 3em/0.65 'Playfair Display', sans-serif;
+  padding: 0.15em 0.05em 0 0;
+  text-transform: uppercase;
 }
 
 /*** OPEN BOOK ***/
@@ -137,20 +145,6 @@ body {
   color: rgba(0,0,0,0.5);
   text-decoration: none;
 }
-// .open-book sup {
-//    color: #cc0000;  /* strong red */
-//    font-family: 'Rock Salt', cursive;
-//    left: 0;
-//    margin-top: -1em!important;
-//    max-width: 100%!important;
-//    position: absolute;
-//    text-align: center;
-//    width: 100%;
-//}
-<!--
-  vertical-align: super;
-  font-size: smaller;
--->
 
 .open-book mark {
   background: linear-gradient(to bottom, rgba(222,255,0,1) 0%,rgba(222,255,0,0.5) 60%,rgba(222,255,0,1) 100%);
@@ -188,7 +182,7 @@ sup {
   font-weight: 900;
 }
 
-/*** MEDIA QUERIES ends approx line 300 ***/
+/*** MEDIA QUERIES ends approx line 303 ***/
 @media only screen and ( min-width: 50em ) {
   .open-book {
     margin: 1em;
