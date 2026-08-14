@@ -1,3 +1,4 @@
+<h1>Trump-Stupidity.bauska.org</h1>
 <h2>LET'S START WITH 25 STUPIDEST THINGS HE'S SAID, THEN WE'LL MOVE ON TO STUPID THINGS HE'S DONE</h2>
 <cite>America's beloved Commander in Queef</cite>
 
